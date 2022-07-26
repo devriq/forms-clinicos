@@ -1,9 +1,11 @@
 <div class="flex flex-col items-center justify-between border border-solid p-4">
     <div class="grid grid-cols-1 items-center h-[20vh] mb-4">
-        <h1 class="text-3xl">Formulários Clínicos</h1>
+        <h1 class="text-3xl text-center text-blue-500 font-bold">Formulários Clínicos</h1>
+        
         <ul class="flex items-center justify-center gap-2 font-semibold">
             <li class="rounded px-3 py-1 focus:bg-blue-600 focus:text-white" routerLink="">Login</li>
-            <li class="rounded px-3 py-1 focus:bg-blue-600 focus:text-white" routerLink="cadastro">Cadastro</li>
+            <li class="rounded px-3 py-1 focus:bg-blue-600 focus:text-white" routerLink="cadastro-adm">Cadastro ADM</li>
+            <li class="rounded px-3 py-1 focus:bg-blue-600 focus:text-white" routerLink="cadastro-hospital">Cadastro Hospital</li>
         </ul>
     </div>
     <router-outlet></router-outlet>
