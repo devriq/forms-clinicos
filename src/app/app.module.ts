@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './views/login/login.component';
 import { CadastroAdmComponent } from './views/cadastro-adm/cadastro-adm.component';
 import { CadastroHospitalComponent } from './views/cadastro-hospital/cadastro-hospital.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     CadastroAdmComponent,
-    CadastroHospitalComponent,
+    CadastroHospitalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
